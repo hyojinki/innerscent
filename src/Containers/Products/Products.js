@@ -8,6 +8,7 @@ import muskDetail from "./musk_detail.png";
 import woodyPic from "./woody_pic.png";
 import woodyDetail from "./woody_detail.png";
 
+
 const Products = () => {
   const bannerDetail = `
 필름매거진이란, 카메라에 들어가는 필름을 담고있는 작은 알루미늄 용기를 말합니다.
