@@ -7,6 +7,7 @@ import muskPic from "./musk_pic.png";
 import muskDetail from "./musk_detail.png";
 import woodyPic from "./woody_pic.png";
 import woodyDetail from "./woody_detail.png";
+import howToUse from "./how_to_use.png";
 
 
 const Products = () => {
@@ -78,6 +79,9 @@ const Products = () => {
             <S.ProductDetail img={woodyDetail}/>
           </S.ProductDetailContainer>
         </S.ProductContainer>
+        <S.HowToUseContainer>
+          <S.HowToUse img={howToUse}/>
+        </S.HowToUseContainer>
       </ContentArea>
     </>
   )
