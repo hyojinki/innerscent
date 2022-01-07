@@ -107,3 +107,23 @@ export const ProductDetail = styled.img`
   background-size: contain;
   background-repeat: no-repeat;
 `;
+
+export const HowToUseContainer = styled.div`
+  width: 100%;
+  margin: 10% auto;
+  text-align: center;
+`;
+
+export const HowToUse = styled.img`
+  width: 70%;
+  height: 0;
+  padding-top: 70%;
+  ${(p) => 
+    p.img
+    ? `background-image: url(${p.img});`
+    : `background-color: #000000;`
+  };
+  background-size: contain;
+  background-repeat: no-repeat;
+  // background-size: cover;
+`;
